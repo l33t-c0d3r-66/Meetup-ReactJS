@@ -1,5 +1,6 @@
 import Meetups from '../components/Meetups/Meetups';
 import { useEffect, useState } from 'react';
+import Spinner from '../components/UI/Spinner/Spinner';
 
 function AllMeetups() {
 
@@ -28,7 +29,7 @@ function AllMeetups() {
     if(isLoading) {
         return (
             <section>
-                <p>Loading...</p>
+                <Spinner />
             </section>
         );
     }
