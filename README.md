@@ -77,9 +77,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
   
 ## Firebase
-Firebase is a platform developed by Google for creating mobile and web applications
-This project uses Firebase Real Time Data Base
-Read more about Firebase here: https://firebase.google.com/docs
+<li> Firebase is a platform developed by Google for creating mobile and web applications
+<li> This project uses Firebase Real Time Data Base
+<li> Read more about Firebase here: https://firebase.google.com/docs
   
 ## Project Screenshots:
    
