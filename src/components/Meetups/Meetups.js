@@ -3,10 +3,11 @@ import MeetupItem from  './MeetupItem/MeetupItem';
 function Meetups(props) {
     return  (
         <ul className={cssClasses.Meetups}>
-            {props.meetups.map(meetup => (
+            {props.meetups.map((meetup,index) => (
                 <MeetupItem key={meetup.id} id={meetup.id} 
                 image={meetup.image} title={meetup.title} 
                 address={meetup.address} description={meetup.description}/>
+                
             ))}
         </ul>
     );

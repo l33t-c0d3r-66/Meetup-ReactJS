@@ -5,6 +5,11 @@
   .control {
     margin-bottom: 0.5rem;
   }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
   
   .control label {
     display: block;
@@ -30,16 +35,16 @@
   .actions button {
     font: inherit;
     cursor: pointer;
-    background-color: #77002e;
+    background-color: #0336FF;
     color: white;
     padding: 0.5rem 1.5rem;
-    border: 1px solid #77002e;
+    border: 1px solid #0336FF;
     border-radius: 4px;
     font-weight: bold;
   }
   
   .actions button:hover,
   .actions button:active {
-    background-color: #a50e48;
-    border-color: #a50e48;
+    background-color: #0e25a5;
+    border-color: #0e25a5;
   }

@@ -6,7 +6,7 @@ function Favorites() {
 
     let favorites;
     if(favoriteContext.totalFavorites === 0) {
-        favorites = <p>You got no favorites yet. Please add some favorites</p>
+        favorites = <p style={{textAlign: 'center'}}>You got no favorites yet. Please add some favorites</p>
     } else {
         favorites = <Meetups meetups={favoriteContext.favorites} />
     }
@@ -14,7 +14,7 @@ function Favorites() {
 
     return (
         <section>
-            <h1>My Favorites</h1>
+            <h1 style={{textAlign: 'center'}}>My Favorites</h1>
             {favorites}
         </section>
     );

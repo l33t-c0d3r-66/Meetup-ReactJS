@@ -31,10 +31,11 @@ function NewMeetupForm(props) {
         
     }
 
-
     return (
         <Card>
             <form className={cssClasses.form} onSubmit={submitHandler}>
+                <h2 className={cssClasses.heading}>Create New Meetup</h2>
+                <hr />
                 <div className={cssClasses.control}>
                     <label htmlFor="title">Meetup Title</label>
                     <input type="text" required id="title" ref={titleInputRef}/>
