@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Meetup ReactJS
+<li> Meetup ReactJs is a web applicaton created using React JS and Firebase.
+<li> This app uses functional components and Hooks.
+<li> The used hooks are useState, useEffect, useContext and createContext
+<li> This project also uses React Router for Routing.
+<li> This project is Created using Create React App.
+  
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +75,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
+## Firebase
+Firebase is a platform developed by Google for creating mobile and web applications
+This project uses Firebase Real Time Data Base
+Read more about Firebase here: https://firebase.google.com/docs
+  
+## Project Screenshots:
+   
+ <img src="https://github.com/l33t-c0d3r-66/Meetup-ReactJS/blob/master/screenshots/ss1.PNG">
+   
+ <img src="https://github.com/l33t-c0d3r-66/Meetup-ReactJS/blob/master/screenshots/ss2.PNG">
+   
+ <img src="https://github.com/l33t-c0d3r-66/Meetup-ReactJS/blob/master/screenshots/ss3.PNG">
